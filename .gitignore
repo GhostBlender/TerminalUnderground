@@ -1,0 +1,118 @@
+# Build results
+Binaries/
+Build/
+DerivedDataCache/
+Intermediate/
+Saved/
+
+# Ignore compiled plugins
+Plugins/*/Binaries/
+Plugins/*/Intermediate/
+
+# Ignore plugin build products but NOT plugin source
+# (Important if you ship plugins in repo)
+# Plugins/YourPlugin/Binaries/
+# Plugins/YourPlugin/Intermediate/
+
+# =========================
+# Visual Studio
+# =========================
+
+.vs/
+*.VC.db
+*.VC.opendb
+*.sln
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Keep solution filters if you use them
+!*.slnf
+
+# =========================
+# Rider / JetBrains
+# =========================
+
+.idea/
+*.sln.iml
+
+# =========================
+# VSCode
+# =========================
+
+.vscode/
+
+# =========================
+# OS junk
+# =========================
+
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# =========================
+# Logs and temp
+# =========================
+
+*.log
+*.tmp
+
+# =========================
+# Crash reports
+# =========================
+
+crashinfo-*
+*.dmp
+
+# =========================
+# Local build data
+# =========================
+
+*.opensdf
+*.sdf
+*.cache
+*.ipch
+*.pdb
+
+# =========================
+# Unreal auto-generated project files
+# (Safe to regenerate)
+# =========================
+
+*.xcodeproj
+*.xcworkspace
+*.sln
+*.VC.db
+Makefile
+CMakeLists.txt
+
+# =========================
+# Packaging / staging
+# =========================
+
+StagedBuilds/
+
+# =========================
+# Shader working directory
+# =========================
+
+Saved/Shaders/
+
+# =========================
+# Optional: Ignore marketplace vault cache copies
+# =========================
+
+VaultCache/
+
+# =========================
+# Keep important folders
+# =========================
+
+!Config/
+!Content/
+!Plugins/
+!Source/
+!*.uproject
+!*.uplugin
